@@ -6,8 +6,8 @@ Formation 3D PACEA
 - **Organisation** : prend place dans le cadre des Graduate Schools UB.
 - **Public cible :** M2 Biogéosciences, Doctorants, Membres permanents de PACEA
 - **Objectifs :**
-    -   Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
-    -   Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
+    - Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
+    - Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
 - **Partenaires possibles** : CRP2A, Ausonius.
  
 ## 2. Modalités
@@ -65,7 +65,3 @@ Très très préliminaire et indicatif ! N'hésitez pas à modifier / compléter
 - Analyse discriminante, MANOVA, régression, clustering.
 - Retour sur l'allométrie.
 - Conclusion de la formation.
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjM5MTIyMF19
--->
