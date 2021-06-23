@@ -21,17 +21,21 @@ Formation 3D PACEA
 L'idée est d'offrir une formation concernant l'ensemble de la chaîne de traitement 3D : acquisition de données brutes (µCT, ...), segmentation, pose de landmarks, morphométrie géométrique, traitements statistiques en aval.
 
 ## 4. Formateurs ?
-Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation (rayer votre nom si vous ne souhaitez pas intervenir) :
+Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation. Si vous ne souhaitez pas intervenir, rayez simplement votre nom. Si vous souhaitez intervenir, précisez sur quelles thématiques du programme (voir plus bas).
 - [ ] Bruno Dutailly
 - [ ] Yann Heuzé
 - [ ] Adeline Le Cabec
 - [ ] Laura Maréchal
-- [X] Frédéric Santos
+- [X] Frédéric Santos (pour une partie des jours 3, 4 et 5)
 - [ ] Antoine Souron
 - [ ] Nicolas Vanderesse
 - [ ] Clément Zanolli
 
-**Possibilité d'intervenants extérieurs :** faites vos suggestions !
+**Possibilité d'intervenants extérieurs :** faites vos suggestions ci-dessous !
+- [ ] Vincent Bonhomme (http://www.vincentbonhomme.fr/) ?
+- [ ] Julien Claude ?
+- [ ] Thomas Cucchi ?
+- [ ] Christian Hoggard (https://cshoggard.netlify.app/) ?
 
 ## 5. Ébauche de programme
 
