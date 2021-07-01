@@ -3,22 +3,30 @@ Formation 3D PACEA
 
 ## 1. Cadre général
 
-- **Organisation** : prend place dans le cadre des Graduate Schools UB.
+- **Organisation** : prend place dans le cadre du Graduate Program ARCHEO.
 - **Public cible :** M2 Biogéosciences, Doctorants, Membres permanents de PACEA
 - **Objectifs :**
     - Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
     - Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
 
 > *{YH} Souhaitons-nous limiter la formation à la morphométrie géométrique ou bien tenterions-nous, ne serait-ce qu'a minima, de présenter d'autres méthodes morphométriques de type EDMA, Fourrier, Difféomorphisme...?*
+> 
+> *{CZ} pour les difféomorphismes, cela demanderait au moins une journée complète dédiée (voir 2) et je pense qu'au final ce soit un peu trop complexe et lourd pour les étudiants. Par contre, même si c'est une formation 3D, j'ajouterais les méthodes analytiques 2D (avec les logiciels tpdDig, tpsUtil...), Fourier, EDMA.*
 
+> *{PB} je pourrai vous décrire le contenu et vous fournir les documents de ce qui est fait en M2 BGS tous les parcours au premier semestre (très court - nous n'avons que 2 heures de CM et 2x2 heures de TD machine pour une introduction aux méthodes dimagerie sensu lato appliquées à nos discplines), puis aux M1 AB et AT 2nd semestre (intro extrêmement courte à la morphométrie géométrique - 1 heure de CM), puis aux M2 AB et AT premier semestre (2x3 heures de TD machine segmentation, rendu surfacique, carto 3D + 1 heure de CM suite de l'intro à la morpho géom et 2x3 heures de TD machine).*
+
+> *{PB} ajouter peut-être aussi les méthodes de cartographie morphométrique ?*
+> 
 - **Partenaires possibles** : CRP2A, Ausonius.
 > *{BD} Ausonius??? CRP2A why not, ils font de l'imagerie. Si non, il y a archeovision qui maitrise l'archivage des données 3D, acquisition surfacique (photogrammétrie et laser), et le traitement des données (topologie de mesh pour impression 3D par ex)*
+> 
+> *{ChC} Archéovision : bien sûr, Rémy Chapoulie m'avait parlé d'un projet 3D en construction. Bruno tu en sais sans doute davantage? Concernant Ausonius : intérêt manifesté par Alexis Gorgue et quelques collègues (à revoir avec lui)*
  
 ## 2. Modalités
 
 - Formation de 5 jours pleins, durant l'été 2022 (fin juin / début juillet).
 - ~ 15 participants maximum.
-- Les formateurs seront rémunérés par UB.
+- Les formateurs seront rémunérés par UB. Possibilité pour les EC UB de déclarer les heures faites dans leur service.
 - Lieu : à définir (mais sur le campus bordelais).
 
 ## 3. Contenu de la formation
@@ -26,9 +34,12 @@ L'idée est d'offrir une formation concernant l'ensemble de la chaîne de traite
 
 ## 4. Formateurs ?
 Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation. Si vous ne souhaitez pas intervenir, rayez simplement votre nom. Si vous souhaitez intervenir, précisez sur quelles thématiques du programme (voir plus bas).
+- [x] Priscilla Bayle (un peu de tout plutôt de J1 à J3)
+- [x] Hélène Coqueugniot
+- [x] Isabelle Crevecoeur (J 1 et 2)
 - [x] Bruno Dutailly (J 1 et 2)
 - [x] Yann Heuzé
-- [ ] Adeline Le Cabec
+- [x] Adeline Le Cabec (J1 et 2)
 - [x] Laura Maréchal (J 3 et 4, voire 1 et 2 si besoin)
 - [X] Frédéric Santos (pour une partie des jours 3, 4 et 5)
 - [X] Antoine Souron (plutôt jours 1 et 2)
@@ -38,7 +49,7 @@ Les membres suivants de PACEA pourraient intervenir à différentes étapes de l
 **Possibilité d'intervenants extérieurs :** faites vos suggestions ci-dessous !
 - [ ] Vincent Bonhomme (http://www.vincentbonhomme.fr/) ?
 - [x] Julien Claude ?
-- [ ] Renaud Lebrun ? (https://isem-evolution.fr/membre/lebrun/)
+- [x] Renaud Lebrun ? (https://isem-evolution.fr/membre/lebrun/)
 - [x] Thomas Cucchi ?
 - [ ] Nicolas Navarro ? (http://nnavarro.free.fr/)
 - [ ] Vincent Debat ? (http://www.evomorpho.com/vincent.html)
@@ -46,8 +57,17 @@ Les membres suivants de PACEA pourraient intervenir à différentes étapes de l
 - [ ] Jean Dumoncel (difféomorphisme) ? (https://www.3dmorph.org/presentation/)
 - [ ] Christian Hoggard (https://cshoggard.netlify.app/) ?
 - [ ] Florent Détroit
-- [ ] Patricia Wils
+- [x] Patricia Wils
 - [ ] Dimitri Neaux (covariation ?)
+- [ ] Philipp Gunz (ALC: On peut aussi demander à Simon Neubauer?)
+- [ ] Sélim Natahi (ALC: idem pour Alexandra Schuh qui sera sur Bordeaux)
+- [ ] Mona Le Luyer
+- [ ] Markus Bastir
+- [ ] Michaël Coquerelle
+- [ ] Mikel Arlegui
+- [ ] Paul O'Higgins
+- [ ] Laura Martin-Frances
+- [ ] Zewdi Tsegai (https://www.eva.mpg.de/evolution/staff/zewdi-tsegai/) 
 
 ## 5. Ébauche de programme
 
