@@ -1,39 +1,99 @@
-Formation 3D PACEA
-=================
+Graduate school "Imagerie 3D" PACEA
+===================================
 
 ## 1. Cadre général
+Prend place dans le cadre du Graduate Program ARCHEO.
 
-- **Organisation** : prend place dans le cadre du Graduate Program ARCHEO.
-- **Public cible :** M2 Biogéosciences, Doctorants, Membres permanents de PACEA
-- **Objectifs :**
-    - Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
-    - Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
+### Modalités
 
-> *{YH} Souhaitons-nous limiter la formation à la morphométrie géométrique ou bien tenterions-nous, ne serait-ce qu'a minima, de présenter d'autres méthodes morphométriques de type EDMA, Fourrier, Difféomorphisme...?*
-> 
-> *{CZ} pour les difféomorphismes, cela demanderait au moins une journée complète dédiée (voir 2) et je pense qu'au final ce soit un peu trop complexe et lourd pour les étudiants. Par contre, même si c'est une formation 3D, j'ajouterais les méthodes analytiques 2D (avec les logiciels tpdDig, tpsUtil...), Fourier, EDMA.*
-
-> *{PB} je pourrai vous décrire le contenu et vous fournir les documents de ce qui est fait en M2 BGS tous les parcours au premier semestre (très court - nous n'avons que 2 heures de CM et 2x2 heures de TD machine pour une introduction aux méthodes dimagerie sensu lato appliquées à nos discplines), puis aux M1 AB et AT 2nd semestre (intro extrêmement courte à la morphométrie géométrique - 1 heure de CM), puis aux M2 AB et AT premier semestre (2x3 heures de TD machine segmentation, rendu surfacique, carto 3D + 1 heure de CM suite de l'intro à la morpho géom et 2x3 heures de TD machine).*
-
-> *{PB} ajouter peut-être aussi les méthodes de cartographie morphométrique ?*
-> 
-- **Partenaires possibles** : CRP2A, Ausonius.
-> *{BD} Ausonius??? CRP2A why not, ils font de l'imagerie. Si non, il y a archeovision qui maitrise l'archivage des données 3D, acquisition surfacique (photogrammétrie et laser), et le traitement des données (topologie de mesh pour impression 3D par ex)*
-> 
-> *{ChC} Archéovision : bien sûr, Rémy Chapoulie m'avait parlé d'un projet 3D en construction. Bruno tu en sais sans doute davantage? Concernant Ausonius : intérêt manifesté par Alexis Gorgue et quelques collègues (à revoir avec lui)*
- 
-## 2. Modalités
-
-- Formation de 5 jours pleins, durant l'été 2022 (fin juin / début juillet).
-- ~ 15 participants maximum.
+- Formation de 5 à 8 jours pleins, idéalement en 2022 (et pas forcément durant la période estivale, même si ça semble le plus adapté).
+- 16 participants maximum, eu égard aux contraintes matérielles et à la capacité d'accueil.
 - Les formateurs seront rémunérés par UB. Possibilité pour les EC UB de déclarer les heures faites dans leur service.
 - Lieu : à définir (mais sur le campus bordelais).
 
-## 3. Contenu de la formation
-L'idée est d'offrir une formation concernant l'ensemble de la chaîne de traitement 3D : acquisition de données brutes (µCT, ...), segmentation, pose de landmarks (ou pas si landmark-free morphometrics), morphométrie géométrique, traitements statistiques en aval.
+### Publics cibles
+- Publics prioritaires : néo-doctorants PACEA, étudiants du Master BGS durant la transition M1/M2.
+- Publics éligibles s'il reste de la place (par ordre de priorité) : permanents de PACEA, anciens étudiants de M2 BGS, doctorants hors PACEA mais appartenant à la même école doctorale.
+- Publics probablement pas éligibles sauf gros manque d'inscriptions : doctorants et personnels hors UB/UBM.
 
-## 4. Formateurs ?
-Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation. Si vous ne souhaitez pas intervenir, rayez simplement votre nom. Si vous souhaitez intervenir, précisez sur quelles thématiques du programme (voir plus bas).
+### Objectifs
+- Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
+- Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
+
+### Partenaires possibles à l'échelle locale
+- CRP2A
+- Ausonius (voir avec Alexis Gorgue)
+- Archéovision (pour l'archivage des données 3D ou l'acquisition surfacique)
+
+## 2. Organisation de la formation
+### Philosophie générale
+- Offrir une formation concernant l'ensemble de la chaîne de traitement 3D : acquisition de données brutes (µCT, ...), segmentation, pose de landmarks (ou pas, si landmark-free morphometrics), morphométrie géométrique, traitements statistiques en aval. Toutefois, l'accent doit principalement être mis sur la partie morpho géométrique.
+- Idéalement : on aura un jeu de données déjà solide à proposer aux étudiants, mais on y ajoutera "en live" en cours de formation quelques specimen pour lesquels les étudiants feront l'acquisition des données.
+- La formation pourrait être modulaire, avec deux inscriptions séparées à réaliser : une première inscription à un tronc commun plutôt élémentaire de 4/5 jours, une seconde pour des compléments plus avancés de 3/4 jours.
+- Possibilité de séparer en deux groupes de 8 étudiants, au moins pour la partie acquisition de données.
+
+### Données
+Quelles données fournir aux étudiants pour servir de support et de cas d'étude ? Sources possibles :
+- Yann dispose de données au format DICOM pour ~60 individus.
+- Chercher des données librement disponibles en ligne, ou jointes à des articles de recherche publiés.
+- Utiliser des données d'exemple directement incluses dans certains packages R.
+
+On peut aussi utiliser plusieurs jeux de données différents, un par grand thème (contours 2D, landmarks 3D, etc.).
+
+### Logiciels
+Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme MorphoJ ?
+
+### Pédagogie et supports de cours
+- Au moins pour les parties sur R, possibilités de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
+- Comment harmoniser / coordonner le travail et les supports des différents formateurs ?
+
+## 4. Programme
+
+À modifier / compléter à foison ! On part sur le principe de journées de 6h.
+
+### Acquisition de données : théorie (~ 3h ?)
+
+- Notions "théoriques" sur les outils d'acquisition de données (acquisition tomographique, etc.), l'hébergement et la sauvegarde des fichiers obtenus.
+- Manipulation de meshes, segmentation, etc. 
+> *{BD} on est déjà dans du traitement, pas dans l'acquisition. renommer Acquisition et traitement?*
+- Présentation de différents logiciels d'imagerie (Avizo, TIVMI, Dragonfly, Fiji, etc.).
+
+### Acquisition de données : pratique (~ 6h ?)
+- Acquisition de landmarks 2D/3D :
+  - Utilisation de logiciels spécifiques (TIVMI, tpsDig, viewbox ...) pour la pose de landmarks et/ou semi-landmarks.
+  - Chaque stagiaire (ou binôme de stagiaire) effectue la pose de landmarks pour 2 à 3 individus, puis les données acquises par les étudiants sont mises en commun.
+
+- Segmentation : what / how ?
+
+
+### Bases / rappels en morpho géométrique (~ 3h ?)
+- Historique et généralités.
+- Logiciels dispo (ImageJ, R, ...).
+- Notions théoriques : forme, taille, allométrie, types de landmarks, superposition procustéenne, morphospace, espace tangent, etc.
+- Analyse pratique avec R (ou autre).
+
+### Morpho avec landmarks 2D/3D (~ 9h ?)
+Utilisation de R (ou MorphoJ ?) pour :
+- Étude de l'erreur intra/inter-obs
+- Visualisation de formes 3D
+- ACP sur données de landmarks
+- Analyse discriminante / clustering / autres stat amusantes de votre choix.
+- Point méthodo (?) : reporting automatique avec R
+
+### Morpho "classique" : compléments (~ 9h ?)
+- Théorie des semilandmarks / sliding landmarks : bending energy, etc.
+- Déformations TPS, principal warps, relative warps, etc.
+- Analyse pratique avec R (ou autre)
+
+### Morpho "avancée" (~ 12 ou 15h ?)
+Proposer une inscription *séparée* à ce module.
+- Analyse des contours 2D (Fourier, etc.), exemple avec R.
+- Analyse par EDMA, exemple avec R.
+- Analyse par difféomorphisme, exemple avec R.
+- Estimation de landmarks ou de parties manquantes, exemple avec R.
+
+## 5. Formateurs
+Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation.
 - [x] Priscilla Bayle (un peu de tout plutôt de J1 à J3)
 - [x] Hélène Coqueugniot
 - [x] Isabelle Crevecoeur (J 1 et 2)
@@ -68,41 +128,3 @@ Les membres suivants de PACEA pourraient intervenir à différentes étapes de l
 - [ ] Paul O'Higgins
 - [ ] Laura Martin-Frances
 - [ ] Zewdi Tsegai (https://www.eva.mpg.de/evolution/staff/zewdi-tsegai/) 
-
-## 5. Ébauche de programme
-
-Très très préliminaire et indicatif ! N'hésitez pas à modifier / compléter.
-
-### Jour 1 : Acquisition de données (théorie)
-
-- Notions "théoriques" sur l'acquisition de données (µCT, etc.), l'hébergement et la sauvegarde des fichiers obtenus.
-- Manipulation de meshes, segmentation, etc. 
-> *{BD} on est déjà dans du traitement, pas dans l'acquisition. renommer Acquisition et traitement?*
-- Présentation de différents logiciels d'imagerie (Avizo, TIVMI, Dragonfly, Fiji, etc.).
-- Présentation d'un cas concret : des scans ou images (2D ou 3D)  seront remis aux stagiaires, qui devront effectuer de la saisie de données le lendemain. Présentation du contexte scientifique de l'étude.
-
-### Jour 2 : Acquisition de données (pratique)
-- Utilisation de logiciels spécifiques (TIVMI, tpsDig, viewbox ...) pour la pose de landmarks et/ou semi-landmarks.
-- Chaque stagiaire (ou binôme de stagiaire) effectue la pose de landmarks pour 2 à 3 individus, puis les données sont mises en commun à la fin de la journée. La suite de la formation se base sur les données réelles acquises par les stagiaires.
-- On inclura par la suite une phase "analyse de l'erreur intra-obs" si le temps le permet.
-> *[]Cela me parait au contraire crucial et devrait même être un des premiers points à aborder {AS}*
->
-> *{LM} D'accord avec Antoine, d'autant qu'il existe plusieurs écoles pour les tests intra-obs et ce serait bien de les passer en revue? (cf. notamment von Cramon-Taubadel et al. 2007)*
-### Jour 3 : Morphométrie géométrique (les bases)
-- Historique et généralités.
-- Logiciels dispo (ImageJ, R, ...).
-- Notions théoriques : forme, taille, allométrie, types de landmarks, superposition procustéenne.
-- Cas des semilandmarks / sliding landmarks : bending energy, etc.
-- Analyse pratique avec R (ou autre).
-> *{LM} Pour info : l'historique, les généralités, les notions théoriques, etc sont vues dans le cours d'Introduction à la morpho géo et aux FEA en M1 puis en M2.*   
-
-### Jour 4 : Morphométrie géométrique (un peu plus avancée)
-- ACP sur données de landmarks / semilandmarks.
-- Déformations TPS, principal warps, relative warps, etc.
-- Analyse pratique avec R (ou autre)
-> *{LM} Ici on pourrait rajouter une intro au difféomorphisme, si vous trouvez ça pertinent. Je peux participer à cette partie au besoin. En ce qui concerne les analyses pratiques, je pense que ce serait super de faire ça sur R en effet. Pour info encore : en M2, les étudiants ont un TP de morpho où je leur montre comment utiliser MorphoJ.*
-
-### Jour 5 : Analyses statistiques en aval
-- Analyse discriminante, MANOVA, régression, clustering.
-- Retour sur l'allométrie.
-- Conclusion de la formation.
