@@ -44,12 +44,12 @@ On peut aussi utiliser plusieurs jeux de données différents, un par grand thè
 Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme MorphoJ ?
 
 ### Pédagogie et supports de cours
-- Au moins pour les parties sur R, possibilités de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
+- Au moins pour les parties sur R, possibilité de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
 - Comment harmoniser / coordonner le travail et les supports des différents formateurs ?
 
 ## 4. Programme
 
-À modifier / compléter à foison ! On part sur le principe de journées de 6h.
+À modifier / compléter à foison ! On part sur le principe de journées de 6h (?).
 
 ### Acquisition de données : théorie (~ 3h ?)
 
@@ -63,30 +63,28 @@ Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme M
   - Utilisation de logiciels spécifiques (TIVMI, tpsDig, viewbox ...) pour la pose de landmarks et/ou semi-landmarks.
   - Chaque stagiaire (ou binôme de stagiaire) effectue la pose de landmarks pour 2 à 3 individus, puis les données acquises par les étudiants sont mises en commun.
 
-- Segmentation : what / how ?
+- Segmentation : what / how ? Faut-il une autre demi-journée pour ça ?
 
 
-### Bases / rappels en morpho géométrique (~ 3h ?)
+### Généralités et rappels en morpho géométrique (~ 3h ?)
 - Historique et généralités.
 - Logiciels dispo (ImageJ, R, ...).
 - Notions théoriques : forme, taille, allométrie, types de landmarks, superposition procustéenne, morphospace, espace tangent, etc.
-- Analyse pratique avec R (ou autre).
 
-### Morpho avec landmarks 2D/3D (~ 9h ?)
+### Morpho géométrique sur landmarks 2D/3D (~ 9h ?)
 Utilisation de R (ou MorphoJ ?) pour :
 - Étude de l'erreur intra/inter-obs
 - Visualisation de formes 3D
 - ACP sur données de landmarks
 - Analyse discriminante / clustering / autres stat amusantes de votre choix.
-- Point méthodo (?) : reporting automatique avec R
 
-### Morpho "classique" : compléments (~ 9h ?)
+### Morpho géométrique : compléments (~ 9h ?)
 - Théorie des semilandmarks / sliding landmarks : bending energy, etc.
 - Déformations TPS, principal warps, relative warps, etc.
 - Analyse pratique avec R (ou autre)
 
-### Morpho "avancée" (~ 12 ou 15h ?)
-Proposer une inscription *séparée* à ce module.
+### Morpho géométrique "avancée" (~ 12 ou 15h ?)
+Proposer une inscription *séparée* à ce module, pour les plus motivés. :-) Attention : prévoir là aussi des données pour cette partie de la formation (et pas nécessairement les mêmes que pour le tronc commun).
 - Analyse des contours 2D (Fourier, etc.), exemple avec R.
 - Analyse par EDMA, exemple avec R.
 - Analyse par difféomorphisme, exemple avec R.
