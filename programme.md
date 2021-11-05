@@ -32,7 +32,7 @@ Prend place dans le cadre du Graduate Program ARCHEO.
 - La formation pourrait être modulaire, avec deux inscriptions séparées à réaliser : une première inscription à un tronc commun plutôt élémentaire de 4/5 jours, une seconde pour des compléments plus avancés de 3/4 jours.
 - Possibilité de séparer en deux groupes de 8 étudiants, au moins pour la partie acquisition de données.
 
-### Données
+### (TODO) Données
 Quelles données fournir aux étudiants pour servir de support et de cas d'étude ? Sources possibles :
 - Yann dispose de données au format DICOM pour ~60 individus.
 - Chercher des données librement disponibles en ligne, ou jointes à des articles de recherche publiés.
@@ -47,7 +47,10 @@ Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme M
 - Au moins pour les parties sur R, possibilité de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
 - Comment harmoniser / coordonner le travail et les supports des différents formateurs ?
 
-## 4. Programme
+### Références
+- Prévoir une mise en commun des PDF de bonnes références (manuels généraux d'introduction à la GM, articles théoriques, articles d'étude de cas, ...) dont nous disposons.
+
+## 4. (TODO) Programme
 
 À modifier / compléter à foison ! On part sur le principe de journées de 6h (?).
 
