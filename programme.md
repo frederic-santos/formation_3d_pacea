@@ -33,19 +33,19 @@ Prend place dans le cadre du Graduate Program ARCHEO.
 - Possibilité de séparer en deux groupes de 8 étudiants, au moins pour la partie acquisition de données.
 
 ### (TODO) Données
-Quelles données fournir aux étudiants pour servir de support et de cas d'étude ? Sources possibles :
-- Yann dispose de données au format DICOM pour ~60 individus.
-- Chercher des données librement disponibles en ligne, ou jointes à des articles de recherche publiés.
-- Utiliser des données d'exemple directement incluses dans certains packages R.
+Quelles données fournir aux étudiants pour servir de support et de cas d'étude ? Il faudrait idéalement que ces données restent librement accessibles aux stagiaires après la formation, et qu'elles soient des scans complets afin de permettre la partie segmentation / pose de landmarks par les stagiaires. Sources possibles : 
+- Bases en ligne (e.g., https://www.morphosource.org/)
+- Données jointes à des articles de recherche publiés (lesquels ?).
 
 On peut aussi utiliser plusieurs jeux de données différents, un par grand thème (contours 2D, landmarks 3D, etc.).
 
 ### Logiciels
-Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme MorphoJ ?
+Privilégier l'utilisation de R. Démo rapide de MorphoJ également possible.
 
 ### Pédagogie et supports de cours
 - Au moins pour les parties sur R, possibilité de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
 - Comment harmoniser / coordonner le travail et les supports des différents formateurs ?
+- Possible source d'inspiration : cf. les PDF et les vidéo sur https://github.com/CSHoggard/-gmm_liverpool_2020
 
 ### Références
 - Prévoir une mise en commun des PDF de bonnes références (manuels généraux d'introduction à la GM, articles théoriques, articles d'étude de cas, ...) dont nous disposons.
@@ -54,39 +54,43 @@ Privilégier l'utilisation de R ? Ou plutôt de logiciels "à la souris" comme M
 
 À modifier / compléter à foison ! On part sur le principe de journées de 6h (?).
 
-### Acquisition de données : théorie (~ 3h ?)
+### Intro / Présentation d'un cas concret (resp. : ? ;  durée : 1h)
+- Accueil et intro générale
+- Motivation : présentation d'un article de recherche intéressant, avec l'ensemble de la démarche en imagerie 3D.
 
+### Acquisition de données : théorie (resp. : ? ; durée : 2h)
 - Notions "théoriques" sur les outils d'acquisition de données (acquisition tomographique, etc.), l'hébergement et la sauvegarde des fichiers obtenus.
 - Manipulation de meshes, segmentation, etc. 
 > *{BD} on est déjà dans du traitement, pas dans l'acquisition. renommer Acquisition et traitement?*
-- Présentation de différents logiciels d'imagerie (Avizo, TIVMI, Dragonfly, Fiji, etc.).
+- Présentation des différents logiciels qui seront utilisés (privilégier [3DSlicer](https://www.slicer.org/) et/ou TIVMI, qui sont gratuits).
 
-### Acquisition de données : pratique (~ 6h ?)
+### Acquisition de données : pratique (resp. : ? ; durée : 9h)
+- Segmentation
 - Acquisition de landmarks 2D/3D :
   - Utilisation de logiciels spécifiques (TIVMI, tpsDig, viewbox ...) pour la pose de landmarks et/ou semi-landmarks.
   - Chaque stagiaire (ou binôme de stagiaire) effectue la pose de landmarks pour 2 à 3 individus, puis les données acquises par les étudiants sont mises en commun.
 
-- Segmentation : what / how ? Faut-il une autre demi-journée pour ça ?
-
-
-### Généralités et rappels en morpho géométrique (~ 3h ?)
+### Généralités et rappels en morpho géométrique (resp. : ? ; durée : 3h ?)
 - Historique et généralités.
 - Logiciels dispo (ImageJ, R, ...).
 - Notions théoriques : forme, taille, allométrie, types de landmarks, superposition procustéenne, morphospace, espace tangent, etc.
 
-### Morpho géométrique sur landmarks 2D/3D (~ 9h ?)
-Utilisation de R (ou MorphoJ ?) pour :
+### Demi-journée R ?
+À voir comment la caser en termes de timing.
+
+### Morpho géométrique sur landmarks 2D/3D (resp. : ? ; durée : 9h ?)
+Utilisation de R pour :
 - Étude de l'erreur intra/inter-obs
 - Visualisation de formes 3D
 - ACP sur données de landmarks
 - Analyse discriminante / clustering / autres stat amusantes de votre choix.
 
-### Morpho géométrique : compléments (~ 9h ?)
+### Morpho géométrique : compléments (resp. : ?  ; durée : ~ 9h ?)
 - Théorie des semilandmarks / sliding landmarks : bending energy, etc.
 - Déformations TPS, principal warps, relative warps, etc.
 - Analyse pratique avec R (ou autre)
 
-### Morpho géométrique "avancée" (~ 12 ou 15h ?)
+### Morpho géométrique "avancée" (resp. : ?  ; durée : ~ 12 ou 15h ?)
 Proposer une inscription *séparée* à ce module, pour les plus motivés. :-) Attention : prévoir là aussi des données pour cette partie de la formation (et pas nécessairement les mêmes que pour le tronc commun).
 - Analyse des contours 2D (Fourier, etc.), exemple avec R.
 - Analyse par EDMA, exemple avec R.
