@@ -2,127 +2,117 @@ Graduate school "Imagerie 3D" PACEA
 ===================================
 
 ## 1. Cadre général
-Prend place dans le cadre du Graduate Program ARCHEO.
+Cette école d'été est co-organisée avec le soutien du Graduate Program ARCHEO et du GPR Human Past.
 
 ### Modalités
 
-- Formation de 5 à 8 jours pleins, idéalement en 2022 (et pas forcément durant la période estivale, même si ça semble le plus adapté).
-- 16 participants maximum, eu égard aux contraintes matérielles et à la capacité d'accueil.
-- Les formateurs seront rémunérés par UB. Possibilité pour les EC UB de déclarer les heures faites dans leur service.
-- Lieu : à définir (mais sur le campus bordelais).
+- Formation de 5 jours pleins et consécutifs, à priori pendant la semaine du 3 juillet 2023.
+- Un tronc commun et deux à trois spécialités seront proposés.
+- 16 participants maximum par spécialité, eu égard aux contraintes matérielles et à la capacité d'accueil.
+- Les modalités de rémunération des formateurs restent à préciser.
+- La participation est gratuite pour tous les étudiants (:warning: à confirmer).
+- Enseignements peut-être partiellement en anglais, notamment si ouverture à l'international. À voir spécifiquement avec chaque intervenant.
+- Lieu : campus bordelais.
+
+### Financement
+Possibilité d'un co-financement entre Graduate Program et GPR. Par exemple, le GPR peut prendre en charge le déplacement des intervenants extérieurs à travers le système des *visiting scholars*, alors que le Graduate Program peut prendre en charge la rémunération des intervenants. Les repas peuvent être co-financés par les deux sources.
 
 ### Publics cibles
 - Publics prioritaires : néo-doctorants PACEA, étudiants du Master BGS durant la transition M1/M2.
-- Publics éligibles s'il reste de la place (par ordre de priorité) : permanents de PACEA, anciens étudiants de M2 BGS, doctorants hors PACEA mais appartenant à la même école doctorale.
-- Publics probablement pas éligibles sauf gros manque d'inscriptions : doctorants et personnels hors UB/UBM.
+- Autres publics éligibles : doctorants et étudiants UBM, étudiants d'autres universités françaises ou étrangères. 
+- Publics éligibles uniquement en cas de manque d'inscriptions : permanents de PACEA, anciens étudiants de M2 BGS.
 
 ### Objectifs
-- Rendre autonomes les étudiants et doctorants pour leurs analyses 3D et la pratique de la morphométrie géométrique
-- Organiser un transfert de compétences entre membres de PACEA concernant ces thématiques
+- Rendre autonomes les étudiants et doctorants pour l'utilisation de la 3D (au sens large) dans le cadre de projets de recherche en archéologie.
 
-### Partenaires possibles à l'échelle locale
-- CRP2A
-- Ausonius (voir avec Alexis Gorgue)
-- Archéovision (pour l'archivage des données 3D ou l'acquisition surfacique)
+### Travail administratif
+Recrutement d'un IE spécialisé envisagé. Il/elle aurait en charge la diffusion de l'info (y compris à l'international), et la gestion globale de l'événement (inscriptions, logistique, etc.).
 
 ## 2. Organisation de la formation
 ### Philosophie générale
-- Offrir une formation concernant l'ensemble de la chaîne de traitement 3D : acquisition de données brutes (µCT, ...), segmentation, pose de landmarks (ou pas, si landmark-free morphometrics), morphométrie géométrique, traitements statistiques en aval. Toutefois, l'accent doit principalement être mis sur la partie morpho géométrique.
-- Idéalement : on aura un jeu de données déjà solide à proposer aux étudiants, mais on y ajoutera "en live" en cours de formation quelques specimen pour lesquels les étudiants feront l'acquisition des données.
-- La formation pourrait être modulaire, avec deux inscriptions séparées à réaliser : une première inscription à un tronc commun plutôt élémentaire de 4/5 jours, une seconde pour des compléments plus avancés de 3/4 jours.
-- Possibilité de séparer en deux groupes de 8 étudiants, au moins pour la partie acquisition de données.
+- Un tronc commun obligatoire, puis trois spécialités : 
+    - morphométrie géométrique (reprend la formation de l'été 2022) ;
+    - microscopie (:warning: intitulé à préciser) ;
+    - photogrammétrie, grottes, reconstitution d'ensembles monumentaux (:warning: intitulé à préciser).
+- La formation alterne des temps théoriques et des ateliers pratiques.
+- Possibilité d'une visite de terrain, pour au moins l'une des spécialités.
 
-### (TODO) Données
-Quelles données fournir aux étudiants pour servir de support et de cas d'étude ? Il faudrait idéalement que ces données restent librement accessibles aux stagiaires après la formation, et qu'elles soient des scans complets afin de permettre la partie segmentation / pose de landmarks par les stagiaires. Sources possibles : 
-- Bases en ligne (e.g., https://www.morphosource.org/)
-- Données jointes à des articles de recherche publiés (lesquels ?).
-
-On peut aussi utiliser plusieurs jeux de données différents, un par grand thème (contours 2D, landmarks 3D, etc.).
+### Présentation des trois parcours
+- **Morphométrie géométrique**. Le but est d'offrir une formation concernant l'ensemble de la chaîne de traitement 3D : acquisition de données brutes (µCT, ...), segmentation, pose de landmarks (ou pas, si landmark-free morphometrics), morphométrie géométrique, traitements statistiques en aval.
+- **Parcours 2**. À compléter.
+- **Parcours 3**. À compléter.
 
 ### Logiciels
-Privilégier l'utilisation de R. Démo rapide de MorphoJ également possible.
+L'utilisation de logiciels libres est à privilégier (ou est même obligatoire, puisqu'une partie de la formation s'effectue sur les postes personnels des étudiants). Notamment, sont nécessaires : R, Git, MorphoJ, 3dSlicer.
 
 ### Pédagogie et supports de cours
-- Au moins pour les parties sur R, possibilité de préparer des tutoriels interactifs, sous forme de Jupyter Notebooks ou de tutoriels `learnr`. Voir un exemple ici : https://learnr-examples.shinyapps.io/ex-data-filter/
-- Comment harmoniser / coordonner le travail et les supports des différents formateurs ?
-- Possible source d'inspiration : cf. les PDF et les vidéo sur https://github.com/CSHoggard/-gmm_liverpool_2020
+- Un template PowerPoint est disponible pour les diaporamas PPT.
+- Un template Rmarkdown ou Org-mode peut être créé (par Frédéric Santos) sur demande d'éventuels formateurs intéressés.
+- Les supports de cours seront à mettre publiquement en ligne sur un site web à la fin de la formation, sous licence Creative Commons. Voir par exemple [le site web de l'an dernier](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/courses.html).
 
-### Références
-- Prévoir une mise en commun des PDF de bonnes références (manuels généraux d'introduction à la GM, articles théoriques, articles d'étude de cas, ...) dont nous disposons.
+## 3. Programme
 
-## 4. (TODO) Programme
+:warning: À modifier / compléter à foison ! On part sur le principe de journées de 6h, voire 7h lorsque le programme est trop dense.
 
-À modifier / compléter à foison ! On part sur le principe de journées de 6h (?).
+### Tronc commun : matinée du jour 1 (4h)
 
-### Intro / Présentation d'un cas concret (resp. : ? ;  durée : 1h)
-- Accueil et intro générale
-- Motivation : présentation d'un article de recherche intéressant, avec l'ensemble de la démarche en imagerie 3D.
+#### Accueil général (durée : 30 minutes max)
+Présentation de la formation, de PACEA, du GPR et du Graduate Program.
 
-### Acquisition de données : théorie (resp. : ? ; durée : 2h)
-- Notions "théoriques" sur les outils d'acquisition de données (acquisition tomographique, etc.), l'hébergement et la sauvegarde des fichiers obtenus.
-- Manipulation de meshes, segmentation, etc. 
-> *{BD} on est déjà dans du traitement, pas dans l'acquisition. renommer Acquisition et traitement?*
-- Présentation des différents logiciels qui seront utilisés (privilégier [3DSlicer](https://www.slicer.org/) et/ou TIVMI, qui sont gratuits).
+#### Keynote introductive (resp. Priscilla + R. Vergneux ? ;  durée : 1h30)
+General introduction: 3D imaging in archaeological sciences.
 
-### Acquisition de données : pratique (resp. : ? ; durée : 9h)
-- Segmentation
-- Acquisition de landmarks 2D/3D :
-  - Utilisation de logiciels spécifiques (TIVMI, tpsDig, viewbox ...) pour la pose de landmarks et/ou semi-landmarks.
-  - Chaque stagiaire (ou binôme de stagiaire) effectue la pose de landmarks pour 2 à 3 individus, puis les données acquises par les étudiants sont mises en commun.
+Motivation, intérêt, applications.
 
-### Généralités et rappels en morpho géométrique (resp. : ? ; durée : 3h ?)
-- Historique et généralités.
-- Logiciels dispo (ImageJ, R, ...).
-- Notions théoriques : forme, taille, allométrie, types de landmarks, superposition procustéenne, morphospace, espace tangent, etc.
+#### Data acquisition: general theory (resp. Adeline, Bruno et Nicolas ; durée 2h)
+Notions théoriques sur les outils d'acquisition de données (acquisition tomographique, etc.), l'hébergement et la sauvegarde des fichiers obtenus.
 
-### Demi-journée R ?
-À voir comment la caser en termes de timing.
+Voir l'intervention de l'an dernier : https://gitub.u-bordeaux.fr/nvanderesse/grad-school-3d-imaging-microtomo-data-acquisition
 
-### Morpho géométrique sur landmarks 2D/3D (resp. : ? ; durée : 9h ?)
-Utilisation de R pour :
-- Étude de l'erreur intra/inter-obs
-- Visualisation de formes 3D
-- ACP sur données de landmarks
-- Analyse discriminante / clustering / autres stat amusantes de votre choix.
+### Parcours morpho géométrique
+Reprise plus ou moins à l'identique du [programme de l'année passée](https://gradschoolmorphoub.github.io/website-gs-imaging-morpho/schedule.html), avec les modules suivants : 
+- 2D and 3D data aquisition (une demi-journée) ;
+- segmentation (une demi-journée) ;
+- introduction to R (une demi-journée) ;
+- general introduction to morphometrics (une demi-journée) ;
+- acquisition of landmark data (une demi-journée) ;
+- 3D geometric morphometrics in practice with R (une journée) ;
+- workshop/brainstorming: Using morphometrics in a research project (une demi-journée) ;
+- conclusive keynote by an invited speaker (une demi-journée).
 
-### Morpho géométrique : compléments (resp. : ?  ; durée : ~ 9h ?)
-- Théorie des semilandmarks / sliding landmarks : bending energy, etc.
-- Déformations TPS, principal warps, relative warps, etc.
-- Analyse pratique avec R (ou autre)
+### Parcours 2
+À définir.
 
-### Morpho géométrique "avancée" (resp. : ?  ; durée : ~ 12 ou 15h ?)
-Proposer une inscription *séparée* à ce module, pour les plus motivés. :-) Attention : prévoir là aussi des données pour cette partie de la formation (et pas nécessairement les mêmes que pour le tronc commun).
-- Analyse des contours 2D (Fourier, etc.), exemple avec R.
-- Analyse par EDMA, exemple avec R.
-- Analyse par difféomorphisme, exemple avec R.
-- Estimation de landmarks ou de parties manquantes, exemple avec R.
+### Parcours 3
+À définir.
 
-## 5. Formateurs
+## 4. Formateurs
 Les membres suivants de PACEA pourraient intervenir à différentes étapes de la formation.
-- [x] Priscilla Bayle (un peu de tout plutôt de J1 à J3)
-- [x] Hélène Coqueugniot
-- [x] Isabelle Crevecoeur (J 1 et 2)
-- [x] Bruno Dutailly (J 1 et 2)
+- [x] Priscilla Bayle
+- [ ] Isabelle Crevecoeur (à confirmer)
+- [x] Bruno Dutailly
 - [x] Yann Heuzé
-- [x] Adeline Le Cabec (J1 et 2)
-- [x] Laura Maréchal (J 3 et 4, voire 1 et 2 si besoin)
-- [X] Frédéric Santos (pour une partie des jours 3, 4 et 5)
-- [X] Antoine Souron (plutôt jours 1 et 2)
+- [x] Adeline Le Cabec
+- [ ] Laura Maréchal (à confirmer)
+- [ ] Alain Queffelec (à confirmer)
+- [X] Frédéric Santos
+- [ ] Alexandra Schuh (à confirmer)
+- [X] Antoine Souron
 - [X] Nicolas Vanderesse
 - [x] Clément Zanolli
 
 **Possibilité d'intervenants extérieurs :** faites vos suggestions ci-dessous !
 - [ ] Vincent Bonhomme (http://www.vincentbonhomme.fr/) ?
-- [x] Julien Claude ?
-- [x] Renaud Lebrun ? (https://isem-evolution.fr/membre/lebrun/)
-- [x] Thomas Cucchi ?
+- [ ] Julien Claude ?
+- [ ] Renaud Lebrun ? (https://isem-evolution.fr/membre/lebrun/)
+- [ ] Thomas Cucchi ?
 - [ ] Nicolas Navarro ? (http://nnavarro.free.fr/)
 - [ ] Vincent Debat ? (http://www.evomorpho.com/vincent.html)
 - [ ] Neus Martinez Abadias ?(https://webgrec.ub.edu/webpages/000011/ang/neusmartinez.ub.edu.html)
 - [ ] Jean Dumoncel (difféomorphisme) ? (https://www.3dmorph.org/presentation/)
 - [ ] Christian Hoggard (https://cshoggard.netlify.app/) ?
 - [ ] Florent Détroit
-- [x] Patricia Wils
+- [ ] Patricia Wils
 - [ ] Dimitri Neaux (covariation ?)
 - [ ] Philipp Gunz (ALC: On peut aussi demander à Simon Neubauer?)
 - [ ] Sélim Natahi (ALC: idem pour Alexandra Schuh qui sera sur Bordeaux)
